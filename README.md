@@ -1,22 +1,60 @@
-🌐 Project: Weather Application – API Integration
-Company: CodTech IT Solutions
-Duration: January 2025 – April 2025
-Role: Full Stack Intern
+# 🌤️ Weather Application (API Integrated)
 
-Description:
-Developed a fully responsive weather web application as part of an industrial-level project during my internship at CodTech IT Solutions. The application fetches and displays real-time weather data using the RapidAPI (weather-api138) and is built using HTML, CSS, JavaScript, and Bootstrap.
+> Developed as part of the **Full Stack Development Internship** at CodTech IT Solutions
 
-Responsibilities:
+A modern weather application that fetches and displays real-time weather data using an external weather API. Users can search for any city and receive current weather conditions along with additional insights such as temperature, humidity, and wind speed.
 
-Integrated third-party weather API to fetch real-time city-wise weather data.
+---
 
-Designed a user-friendly interface with responsive layouts using Bootstrap 5.
+## 🌐 Project Overview
 
-Implemented dynamic search functionality to fetch weather details based on user input.
+This project demonstrates API integration in a clean and responsive user interface. It enhances the user experience with live data and an intuitive design, showing weather details with just a city search.
 
-Displayed data such as temperature, humidity, pressure, wind speed, and weather description with icons.
+---
 
-Added a UI subscription form for email input to simulate user engagement features.
+## ✨ Features
 
-Technologies Used:
-HTML, CSS, Bootstrap, JavaScript, RapidAPI (weather-api138)
+- 🔎 Search weather by city name
+- 📍 Displays:
+  - Temperature
+  - Humidity
+  - Wind Speed
+  - Weather Condition (Icon + Description)
+- 📡 Real-time data via REST API
+- 💻 Responsive UI
+- ⚠️ Error handling for invalid city names
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **API:** OpenWeatherMap API
+- **Icons:** Font Awesome / Weather Icons
+- **Hosting:** GitHub Pages (Optional)
+
+---
+
+## 📁 Project Structure
+Weather-Application-API-Integrated/
+│
+├── index.html
+├── style.css
+├── script.js
+├── .gitignore
+└── README.md
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/uknation/Weather-Application-API-Integrated.git
+cd Weather-Application-API-Integrated
+2. Open index.html in your browser
+No backend setup is needed. The app is completely frontend-based.
+
+3. Insert your API key (if required)
+If using OpenWeatherMap: const apiKey = "YOUR_API_KEY_HERE";
